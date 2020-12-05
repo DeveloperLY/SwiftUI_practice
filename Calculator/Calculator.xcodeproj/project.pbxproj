@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A0E723257A0AF1006BCB5A /* CalculatorButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0E722257A0AF1006BCB5A /* CalculatorButtonItem.swift */; };
 		CD2C5DC425792F1500080379 /* CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2C5DC325792F1500080379 /* CalculatorApp.swift */; };
 		CD2C5DC625792F1500080379 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2C5DC525792F1500080379 /* ContentView.swift */; };
 		CD2C5DC825792F1600080379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2C5DC725792F1600080379 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18A0E722257A0AF1006BCB5A /* CalculatorButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonItem.swift; sourceTree = "<group>"; };
 		CD2C5DC025792F1500080379 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2C5DC325792F1500080379 /* CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorApp.swift; sourceTree = "<group>"; };
 		CD2C5DC525792F1500080379 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				CD2C5DC325792F1500080379 /* CalculatorApp.swift */,
 				CD2C5DC525792F1500080379 /* ContentView.swift */,
+				18A0E722257A0AF1006BCB5A /* CalculatorButtonItem.swift */,
 				CD2C5DC725792F1600080379 /* Assets.xcassets */,
 				CD2C5DCC25792F1600080379 /* Info.plist */,
 				CD2C5DC925792F1600080379 /* Preview Content */,
@@ -263,6 +266,7 @@
 			files = (
 				CD2C5DC625792F1500080379 /* ContentView.swift in Sources */,
 				CD2C5DC425792F1500080379 /* CalculatorApp.swift in Sources */,
+				18A0E723257A0AF1006BCB5A /* CalculatorButtonItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -404,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -421,7 +425,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
-				DEVELOPMENT_TEAM = 7H87W3ARBW;
+				DEVELOPMENT_TEAM = 342VP95RM8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -443,7 +447,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
-				DEVELOPMENT_TEAM = 7H87W3ARBW;
+				DEVELOPMENT_TEAM = 342VP95RM8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
